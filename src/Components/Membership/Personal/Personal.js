@@ -23,10 +23,12 @@ export default class Personal extends Component {
 	}
 
 	submitForm = (e) => {
+		const API_PATH = 'http://localhost:3005/server/index.php';
 		e.preventDefault();
+		console.log(this.state)
 		axios({
 		  method: 'post',
-		  url: `/api/register`,
+		  url: `${API_PATH}`,
 		  headers: { 'content-type': 'application/json' },
 		  data: this.state
 		})
@@ -38,6 +40,7 @@ export default class Personal extends Component {
 		  .catch(error => this.setState({ error: error.message }));
 	}
 	render() {
+		
 		return (
 			<form onSubmit={e=>this.submitForm(e)}action="/action_page.php" className="Personal">
 				<svg className='PersonalTitleField' height={70}>
