@@ -1,0 +1,37 @@
+.Personal {
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    align-items: space-evenly;
+    max-width: 470px;
+    flex-basis: 470px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.PersonalTitleField {
+    fill: black;
+    background: black;
+    max-width: 470px;
+    min-width: 470px;
+}
+
+.PersonalTitle {
+    font-size: 40px;
+    stroke: red;
+    fill: white;
+    text-anchor: center;
+}
+
+#relationshipStatus {
+    display: flex;
+}
+
+.PersonalItems {
+    display: flex;
+    justify-content: space-around;
+}
+

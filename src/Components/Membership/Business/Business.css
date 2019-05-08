@@ -1,0 +1,27 @@
+.Business {
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 470px;
+    flex-basis: 470px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.BusinessTitleField {
+    fill: black;
+    background: black;
+    max-width: 470px;
+    min-width: 470px;
+}
+
+.BusinessTitle {
+    font-size: 40px;
+    stroke: red;
+    fill: white;
+    text-anchor: center;
+}
+

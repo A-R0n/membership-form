@@ -1,0 +1,20 @@
+.Indiana {
+    stroke: red;
+    stroke-width: 2px;
+    fill: rgb(240, 226, 207, 0.9);
+    z-index: 0;
+    background: rgb(27, 0, 0);
+}
+
+text {
+    stroke: black;
+    font-size: 3em;
+    fill: lightcyan;
+}
+
+.gci {
+    stroke: green;
+    fill: green;
+    background: red;
+    stroke-width: 5px;
+}

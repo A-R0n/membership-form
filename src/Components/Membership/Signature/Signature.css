@@ -1,0 +1,8 @@
+.sigCanvas {
+    background: rgba(224, 236, 248, 0.979);
+    border: 1px solid black;
+}
+
+#sigDate {
+    font-size: 2em;
+}

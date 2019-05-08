@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "d3": "^5.9.2",
+    "eslint": "^5.16.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "react-signature-canvas": "^1.0.1",
+    "react-signature-pad-wrapper": "^1.2.4",
+    "signature_pad": "^3.0.0-beta.3",
+    "topojson-client": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

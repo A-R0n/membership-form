@@ -1,0 +1,94 @@
+.Membership {
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 470px;
+    flex-basis: 470px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+}
+
+.MembershipTitleField {
+    fill: black;
+    background: black;
+    max-width: 470px;
+    min-width: 470px;
+}
+
+.MembershipTitle {
+    font-size: 40px;
+    stroke: red;
+    fill: white;
+    text-anchor: center;
+}
+
+
+
+.typeOfMembership {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    font-size: 1.25em;
+}
+
+.typeOfMembership p {
+    padding-left: 10px;
+}
+
+input[type=radio]{
+    font-size: 2em;
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+}
+
+input[type=radio]:hover{
+    cursor: grab;
+}
+
+.Options {
+    font-size: 1.25em;
+}
+
+select[name=membership]{
+    margin-left: 20px;
+    font-size: .5em;
+    margin-bottom: 60px;
+}
+
+.Options {
+    padding-left: 20px;
+}
+
+.totalCost {
+    display: flex;
+    font-size: 1.25em;
+    padding-left: 20px;
+}
+
+.totalCostVal {
+    background: rgb(156, 248, 156);
+}
+
+#noCostYet {
+    background: rgba(207, 203, 203, 0.63);
+}
+
+#price {
+    font-size: .3em;
+    /* color: black; */
+}
+rect {
+    fill: #85bb65;
+    stroke: red;
+    opacity: .3;
+}
+
+#easyMoney {
+    fill: black;
+}
