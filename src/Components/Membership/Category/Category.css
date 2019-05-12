@@ -1,4 +1,4 @@
-.Membership {
+.membership {
     border: 1px solid black;
     margin: auto;
     display: flex;
@@ -7,24 +7,21 @@
     flex-basis: 470px;
     flex-grow: 1;
     flex-shrink: 0;
-    
 }
 
-.MembershipTitleField {
+.membershipTitleField {
     fill: black;
     background: black;
     max-width: 470px;
     min-width: 470px;
 }
 
-.MembershipTitle {
+.membershipTitle {
     font-size: 40px;
     stroke: red;
     fill: white;
     text-anchor: center;
 }
-
-
 
 .typeOfMembership {
     display: flex;
@@ -51,18 +48,15 @@ input[type=radio]:hover{
     cursor: grab;
 }
 
-.Options {
+.options {
     font-size: 1.25em;
+    padding-left: 20px;
 }
 
-select[name=membership]{
+select[name=membershipSelect]{
     margin-left: 20px;
     font-size: .5em;
     margin-bottom: 60px;
-}
-
-.Options {
-    padding-left: 20px;
 }
 
 .totalCost {
@@ -81,8 +75,8 @@ select[name=membership]{
 
 #price {
     font-size: .3em;
-    /* color: black; */
 }
+
 rect {
     fill: #85bb65;
     stroke: red;
