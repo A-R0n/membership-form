@@ -73,7 +73,6 @@ export default class Category extends Component {
 	rectSize = () => {
 		const textBox = d3.select('#price text').node().getBBox();
 		d3.select('#textRect').attr('width', textBox.width + 10).attr('height', textBox.height + 5);
-		console.log('testing text element in svg', textBox);
 	};
 	render() {
 		return (
